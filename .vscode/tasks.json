@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Main Menu",
+            "type": "shell",
+            "command": "${workspaceFolder}\\venv\\Scripts\\python.exe main.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "Launch Desktop GUI",
+            "type": "shell",
+            "command": "${workspaceFolder}\\venv\\Scripts\\python.exe gui.py",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": true
+            }
+        },
+        {
+            "label": "Launch Web Dashboard",
+            "type": "shell",
+            "command": "${workspaceFolder}\\venv\\Scripts\\python.exe web_app.py",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": true
+            }
+        }
+    ]
+}

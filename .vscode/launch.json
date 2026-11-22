@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "▶ 1. Run Main Menu (Interactive)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "▶ 2. Launch Desktop GUI (Tkinter Window)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gui.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "▶ 3. Launch Web Dashboard (Browser)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/web_app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "▶ 4. Train Model & Regenerate Plots",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "▶ 5. Evaluate Model & Display Metrics",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["--evaluate"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "▶ 6. Predict House Price (Terminal)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/predict.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
