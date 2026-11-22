@@ -175,3 +175,5 @@ Evaluated on the held-out 20% test dataset ($N = 200$ samples, `random_state=42`
 
 ### Learned Model Equation:
 $$\text{House\_Price} = -2,010,567.42 + 199.51(\text{Square\_Footage}) + 10,225.20(\text{Bedrooms}) + 8,208.43(\text{Bathrooms}) + 993.54(\text{Year\_Built}) + 14,885.38(\text{Lot\_Size}) + 5,146.15(\text{Garage\_Size}) + 115.07(\text{Neighborhood\_Quality})$$
+
+
